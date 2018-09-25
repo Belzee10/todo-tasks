@@ -2,11 +2,12 @@ import React, { Component } from "react";
 import { Container, Row, Col, Button } from "reactstrap";
 import Tasks from "./components/Tasks";
 import SearchBox from "./components/SearchBox";
-// import
+import NewTask from "./components/NewTask";
 
 class App extends Component {
   state = {
-    tasks: []
+    tasks: [],
+    newTaskShow: false
   };
 
   componentDidMount() {
@@ -15,8 +16,28 @@ class App extends Component {
     });
   }
 
+  showNewTask = () => {
+    !this.state.newTaskShow &&
+      this.setState({
+        newTaskShow: true
+      });
+  };
+
+  hideNewTask = () => {
+    this.state.newTaskShow &&
+      this.setState({
+        newTaskShow: false
+      });
+  };
+
+  handleUpdate = tasks => {
+    this.setState({
+      tasks
+    });
+  };
+
   render() {
-    const { tasks } = this.state;
+    const { tasks, newTaskShow } = this.state;
     return (
       <Container>
         <Row>
@@ -27,9 +48,16 @@ class App extends Component {
             >
               Todo tasks
             </h1>
-            <Button color="primary" size="sm">
+            <Button color="primary" size="sm" onClick={this.showNewTask}>
               New task
             </Button>
+            {newTaskShow && (
+              <NewTask
+                onClose={this.hideNewTask}
+                tasks={tasks}
+                updateTasks={() => this.handleUpdate(tasks)}
+              />
+            )}
             <hr />
             <div className="search-container">
               <SearchBox />

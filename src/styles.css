@@ -17,3 +17,28 @@
   display: flex;
   justify-content: flex-end;
 }
+.badge {
+  cursor: pointer;
+}
+.badge.badge-secondary {
+  background-color: #8d969e;
+}
+.newTask-container {
+  display: flex;
+  margin-top: 1rem;
+}
+.newTask-container .card {
+  background-color: #e9ecef;
+  border-radius: 2px;
+  border: none;
+  min-width: 100%;
+}
+.newTask-container .card .card-body {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .newTask-container .card {
+    min-width: 400px;
+  }
+}

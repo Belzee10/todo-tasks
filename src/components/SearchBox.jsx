@@ -1,5 +1,5 @@
 import React from "react";
-import { Form, FormGroup, Input, FormText } from "reactstrap";
+import { Form, FormGroup, Input } from "reactstrap";
 
 const SearchBox = () => {
   return (

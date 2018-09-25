@@ -4,8 +4,8 @@ import Task from "./Task";
 const Tasks = props => {
   return (
     <div>
-      {props.tasks.map(task => (
-        <Task task={task} key={task.id} />
+      {props.tasks.map((task, index) => (
+        <Task task={task} truncateBy={100} key={task.id} index={index} />
       ))}
     </div>
   );

@@ -28,7 +28,7 @@ const tasks = [
     id: 4,
     title: "Study English",
     description:
-      "Urna mattis tristique porttitor dictumst metus congue ac id tempor pellentesque, ridiculus condimentum"
+      "Urna mattis tristique porttitor dictumst metus congue ac id tempor pellentesque"
   }
 ];
 
