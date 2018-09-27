@@ -36,6 +36,11 @@ class App extends Component {
     });
   };
 
+  handleDeleteTask = id => {
+    const tasks = this.state.tasks.filter(task => task.id !== id);
+    this.setState({ tasks });
+  };
+
   render() {
     const { tasks, newTaskShow } = this.state;
     return (
@@ -62,7 +67,7 @@ class App extends Component {
             <div className="search-container">
               <SearchBox />
             </div>
-            <Tasks tasks={tasks} />
+            <Tasks tasks={tasks} deleteTask={this.handleDeleteTask} />
           </Col>
         </Row>
       </Container>

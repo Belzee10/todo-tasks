@@ -55,7 +55,11 @@ class Task extends Component {
             <Button color="warning" size="sm">
               Edit
             </Button>
-            <Button color="danger" size="sm">
+            <Button
+              color="danger"
+              size="sm"
+              onClick={() => this.props.deleteTask(task.id)}
+            >
               Delete
             </Button>
           </div>

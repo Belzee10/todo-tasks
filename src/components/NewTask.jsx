@@ -49,6 +49,10 @@ class NewTask extends Component {
       };
       tasks.unshift(newTask);
       this.props.updateTasks(tasks);
+      this.setState({
+        title: "",
+        description: ""
+      });
     } else {
       validate.title = "invalid";
       this.setState({
