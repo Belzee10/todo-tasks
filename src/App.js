@@ -7,6 +7,7 @@ import NewTask from "./components/NewTask";
 class App extends Component {
   state = {
     tasks: [],
+    searchTerm: "",
     newTaskShow: false
   };
 
@@ -41,8 +42,13 @@ class App extends Component {
     this.setState({ tasks });
   };
 
+  handleChange = searchTerm => {
+    this.setState({ searchTerm });
+    console.log(searchTerm);
+  };
+
   render() {
-    const { tasks, newTaskShow } = this.state;
+    const { tasks, newTaskShow, searchTerm } = this.state;
     return (
       <Container>
         <Row>
@@ -65,9 +71,13 @@ class App extends Component {
             )}
             <hr />
             <div className="search-container">
-              <SearchBox />
+              <SearchBox searchTerm={searchTerm} onChange={this.handleChange} />
             </div>
-            <Tasks tasks={tasks} deleteTask={this.handleDeleteTask} />
+            <Tasks
+              tasks={tasks}
+              deleteTask={this.handleDeleteTask}
+              searchTerm={searchTerm}
+            />
           </Col>
         </Row>
       </Container>

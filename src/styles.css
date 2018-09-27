@@ -2,10 +2,18 @@
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
-.card .card-body,
+.card .card-container,
 .task-actions {
   display: flex;
   align-items: center;
+}
+.edit-task {
+  padding: 1rem;
+  background-color: #e9ebee;
+}
+.form-container {
+  display: flex;
+  justify-content: space-between;
 }
 .btn {
   border-radius: 2px;

@@ -115,7 +115,7 @@ class NewTask extends Component {
                   </Button>
                   <Button
                     outline
-                    color="danger"
+                    color="secondary"
                     size="sm"
                     onClick={this.props.onClose}
                   >
