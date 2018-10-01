@@ -14,6 +14,7 @@ class Tasks extends Component {
             key={task.id}
             index={index}
             deleteTask={this.props.deleteTask}
+            editTask={this.props.editTask}
           />
         );
     });

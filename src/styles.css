@@ -6,14 +6,15 @@
 .task-actions {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .edit-task {
   padding: 1rem;
   background-color: #e9ebee;
 }
 .form-container {
-  display: flex;
-  justify-content: space-between;
+  /* display: flex;
+  justify-content: space-between; */
 }
 .btn {
   border-radius: 2px;

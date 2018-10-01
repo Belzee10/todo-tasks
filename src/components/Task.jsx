@@ -77,7 +77,11 @@ class Task extends Component {
             </div>
           </div>
           {this.state.isEditable && (
-            <EditTask onClose={this.hideEditTask} task={task} />
+            <EditTask
+              onClose={this.hideEditTask}
+              task={task}
+              editTask={this.props.editTask}
+            />
           )}
         </CardBody>
       </Card>

@@ -41,14 +41,12 @@ class NewTask extends Component {
     e.preventDefault();
     const { title, description, validate } = this.state;
     if (this.state.validate.isFormValid) {
-      const { tasks } = this.props;
       const newTask = {
         id: idGenerator(),
         title: title,
         description: description
       };
-      tasks.unshift(newTask);
-      this.props.updateTasks(tasks);
+      this.props.addTask(newTask);
       this.setState({
         title: "",
         description: ""
