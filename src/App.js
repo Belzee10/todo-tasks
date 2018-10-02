@@ -3,18 +3,20 @@ import { Container, Row, Col, Button } from "reactstrap";
 import Tasks from "./components/Tasks";
 import SearchBox from "./components/SearchBox";
 import NewTask from "./components/NewTask";
+import defaultTasks from "./tasks";
 
 class App extends Component {
   state = {
-    tasks: [],
+    tasks: defaultTasks,
     searchTerm: "",
     newTaskShow: false
   };
 
   componentDidMount() {
-    this.setState({
-      tasks: this.props.tasks
-    });
+    // console.log(defaultTasks);
+    // this.setState({
+    //   tasks: defaultTasks
+    // });
   }
 
   showNewTask = () => {
@@ -56,7 +58,6 @@ class App extends Component {
 
   handleSearchChange = searchTerm => {
     this.setState({ searchTerm });
-    console.log(searchTerm);
   };
 
   render() {

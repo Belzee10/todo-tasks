@@ -1,0 +1,767 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should render correctly in "debug" mode 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <App
+    debug={true}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": <Row
+        tag="div"
+>
+        <Col
+                md={
+                        Object {
+                                "offset": 2,
+                                "size": 8,
+                              }
+                }
+                sm="12"
+                tag="div"
+                widths={
+                        Array [
+                                "xs",
+                                "sm",
+                                "md",
+                                "lg",
+                                "xl",
+                              ]
+                }
+        >
+                <h1
+                        className="text-center display-4"
+                        style={
+                                Object {
+                                        "fontSize": "2rem",
+                                        "marginBottom": "2rem",
+                                      }
+                        }
+                >
+                        Todo tasks
+                </h1>
+                <Button
+                        color="primary"
+                        onClick={[Function]}
+                        size="sm"
+                        tag="button"
+                >
+                        New task
+                </Button>
+                <hr />
+                <div
+                        className="search-container"
+                >
+                        <SearchBox
+                                onChange={[Function]}
+                                searchTerm=""
+                        />
+                </div>
+                <Tasks
+                        deleteTask={[Function]}
+                        editTask={[Function]}
+                        searchTerm=""
+                        tasks={
+                                Array [
+                                        Object {
+                                          "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit suscipit, erat curabitur feugiat posuere interdum ullamcorper habitasse",
+                                          "id": 1,
+                                          "title": "Wash the dog",
+                                        },
+                                        Object {
+                                          "description": "duis aenean turpis lobortis molestie proin justo. Conubia blandit aliquam curae nec lacinia vivamus pretium quis",
+                                          "id": 2,
+                                          "title": "Go for some beers",
+                                        },
+                                        Object {
+                                          "description": "nam sem mattis aliquet mus curabitur fermentum dapibus pulvinar, sed molestie per bibendum ut fringilla fusce",
+                                          "id": 3,
+                                          "title": "Pay taxes",
+                                        },
+                                        Object {
+                                          "description": "Urna mattis tristique porttitor dictumst metus congue ac id tempor pellentesque",
+                                          "id": 4,
+                                          "title": "Study English",
+                                        },
+                                      ]
+                        }
+                />
+        </Col>
+</Row>,
+      "tag": "div",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": <Col
+          md={
+                    Object {
+                              "offset": 2,
+                              "size": 8,
+                            }
+          }
+          sm="12"
+          tag="div"
+          widths={
+                    Array [
+                              "xs",
+                              "sm",
+                              "md",
+                              "lg",
+                              "xl",
+                            ]
+          }
+>
+          <h1
+                    className="text-center display-4"
+                    style={
+                              Object {
+                                        "fontSize": "2rem",
+                                        "marginBottom": "2rem",
+                                      }
+                    }
+          >
+                    Todo tasks
+          </h1>
+          <Button
+                    color="primary"
+                    onClick={[Function]}
+                    size="sm"
+                    tag="button"
+          >
+                    New task
+          </Button>
+          <hr />
+          <div
+                    className="search-container"
+          >
+                    <SearchBox
+                              onChange={[Function]}
+                              searchTerm=""
+                    />
+          </div>
+          <Tasks
+                    deleteTask={[Function]}
+                    editTask={[Function]}
+                    searchTerm=""
+                    tasks={
+                              Array [
+                                        Object {
+                                          "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit suscipit, erat curabitur feugiat posuere interdum ullamcorper habitasse",
+                                          "id": 1,
+                                          "title": "Wash the dog",
+                                        },
+                                        Object {
+                                          "description": "duis aenean turpis lobortis molestie proin justo. Conubia blandit aliquam curae nec lacinia vivamus pretium quis",
+                                          "id": 2,
+                                          "title": "Go for some beers",
+                                        },
+                                        Object {
+                                          "description": "nam sem mattis aliquet mus curabitur fermentum dapibus pulvinar, sed molestie per bibendum ut fringilla fusce",
+                                          "id": 3,
+                                          "title": "Pay taxes",
+                                        },
+                                        Object {
+                                          "description": "Urna mattis tristique porttitor dictumst metus congue ac id tempor pellentesque",
+                                          "id": 4,
+                                          "title": "Study English",
+                                        },
+                                      ]
+                    }
+          />
+</Col>,
+        "tag": "div",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <h1
+              className="text-center display-4"
+              style={
+                            Object {
+                                          "fontSize": "2rem",
+                                          "marginBottom": "2rem",
+                                        }
+              }
+>
+              Todo tasks
+</h1>,
+            <Button
+              color="primary"
+              onClick={[Function]}
+              size="sm"
+              tag="button"
+>
+              New task
+</Button>,
+            false,
+            <hr />,
+            <div
+              className="search-container"
+>
+              <SearchBox
+                            onChange={[Function]}
+                            searchTerm=""
+              />
+</div>,
+            <Tasks
+              deleteTask={[Function]}
+              editTask={[Function]}
+              searchTerm=""
+              tasks={
+                            Array [
+                                          Object {
+                                            "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit suscipit, erat curabitur feugiat posuere interdum ullamcorper habitasse",
+                                            "id": 1,
+                                            "title": "Wash the dog",
+                                          },
+                                          Object {
+                                            "description": "duis aenean turpis lobortis molestie proin justo. Conubia blandit aliquam curae nec lacinia vivamus pretium quis",
+                                            "id": 2,
+                                            "title": "Go for some beers",
+                                          },
+                                          Object {
+                                            "description": "nam sem mattis aliquet mus curabitur fermentum dapibus pulvinar, sed molestie per bibendum ut fringilla fusce",
+                                            "id": 3,
+                                            "title": "Pay taxes",
+                                          },
+                                          Object {
+                                            "description": "Urna mattis tristique porttitor dictumst metus congue ac id tempor pellentesque",
+                                            "id": 4,
+                                            "title": "Study English",
+                                          },
+                                        ]
+              }
+/>,
+          ],
+          "md": Object {
+            "offset": 2,
+            "size": 8,
+          },
+          "sm": "12",
+          "tag": "div",
+          "widths": Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Todo tasks",
+              "className": "text-center display-4",
+              "style": Object {
+                "fontSize": "2rem",
+                "marginBottom": "2rem",
+              },
+            },
+            "ref": null,
+            "rendered": "Todo tasks",
+            "type": "h1",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "New task",
+              "color": "primary",
+              "onClick": [Function],
+              "size": "sm",
+              "tag": "button",
+            },
+            "ref": null,
+            "rendered": "New task",
+            "type": [Function],
+          },
+          false,
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "hr",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <SearchBox
+                onChange={[Function]}
+                searchTerm=""
+/>,
+              "className": "search-container",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "onChange": [Function],
+                "searchTerm": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "deleteTask": [Function],
+              "editTask": [Function],
+              "searchTerm": "",
+              "tasks": Array [
+                Object {
+                  "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit suscipit, erat curabitur feugiat posuere interdum ullamcorper habitasse",
+                  "id": 1,
+                  "title": "Wash the dog",
+                },
+                Object {
+                  "description": "duis aenean turpis lobortis molestie proin justo. Conubia blandit aliquam curae nec lacinia vivamus pretium quis",
+                  "id": 2,
+                  "title": "Go for some beers",
+                },
+                Object {
+                  "description": "nam sem mattis aliquet mus curabitur fermentum dapibus pulvinar, sed molestie per bibendum ut fringilla fusce",
+                  "id": 3,
+                  "title": "Pay taxes",
+                },
+                Object {
+                  "description": "Urna mattis tristique porttitor dictumst metus congue ac id tempor pellentesque",
+                  "id": 4,
+                  "title": "Study English",
+                },
+              ],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": <Row
+          tag="div"
+>
+          <Col
+                    md={
+                              Object {
+                                        "offset": 2,
+                                        "size": 8,
+                                      }
+                    }
+                    sm="12"
+                    tag="div"
+                    widths={
+                              Array [
+                                        "xs",
+                                        "sm",
+                                        "md",
+                                        "lg",
+                                        "xl",
+                                      ]
+                    }
+          >
+                    <h1
+                              className="text-center display-4"
+                              style={
+                                        Object {
+                                                  "fontSize": "2rem",
+                                                  "marginBottom": "2rem",
+                                                }
+                              }
+                    >
+                              Todo tasks
+                    </h1>
+                    <Button
+                              color="primary"
+                              onClick={[Function]}
+                              size="sm"
+                              tag="button"
+                    >
+                              New task
+                    </Button>
+                    <hr />
+                    <div
+                              className="search-container"
+                    >
+                              <SearchBox
+                                        onChange={[Function]}
+                                        searchTerm=""
+                              />
+                    </div>
+                    <Tasks
+                              deleteTask={[Function]}
+                              editTask={[Function]}
+                              searchTerm=""
+                              tasks={
+                                        Array [
+                                                  Object {
+                                                    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit suscipit, erat curabitur feugiat posuere interdum ullamcorper habitasse",
+                                                    "id": 1,
+                                                    "title": "Wash the dog",
+                                                  },
+                                                  Object {
+                                                    "description": "duis aenean turpis lobortis molestie proin justo. Conubia blandit aliquam curae nec lacinia vivamus pretium quis",
+                                                    "id": 2,
+                                                    "title": "Go for some beers",
+                                                  },
+                                                  Object {
+                                                    "description": "nam sem mattis aliquet mus curabitur fermentum dapibus pulvinar, sed molestie per bibendum ut fringilla fusce",
+                                                    "id": 3,
+                                                    "title": "Pay taxes",
+                                                  },
+                                                  Object {
+                                                    "description": "Urna mattis tristique porttitor dictumst metus congue ac id tempor pellentesque",
+                                                    "id": 4,
+                                                    "title": "Study English",
+                                                  },
+                                                ]
+                              }
+                    />
+          </Col>
+</Row>,
+        "tag": "div",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <Col
+            md={
+                        Object {
+                                    "offset": 2,
+                                    "size": 8,
+                                  }
+            }
+            sm="12"
+            tag="div"
+            widths={
+                        Array [
+                                    "xs",
+                                    "sm",
+                                    "md",
+                                    "lg",
+                                    "xl",
+                                  ]
+            }
+>
+            <h1
+                        className="text-center display-4"
+                        style={
+                                    Object {
+                                                "fontSize": "2rem",
+                                                "marginBottom": "2rem",
+                                              }
+                        }
+            >
+                        Todo tasks
+            </h1>
+            <Button
+                        color="primary"
+                        onClick={[Function]}
+                        size="sm"
+                        tag="button"
+            >
+                        New task
+            </Button>
+            <hr />
+            <div
+                        className="search-container"
+            >
+                        <SearchBox
+                                    onChange={[Function]}
+                                    searchTerm=""
+                        />
+            </div>
+            <Tasks
+                        deleteTask={[Function]}
+                        editTask={[Function]}
+                        searchTerm=""
+                        tasks={
+                                    Array [
+                                                Object {
+                                                  "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit suscipit, erat curabitur feugiat posuere interdum ullamcorper habitasse",
+                                                  "id": 1,
+                                                  "title": "Wash the dog",
+                                                },
+                                                Object {
+                                                  "description": "duis aenean turpis lobortis molestie proin justo. Conubia blandit aliquam curae nec lacinia vivamus pretium quis",
+                                                  "id": 2,
+                                                  "title": "Go for some beers",
+                                                },
+                                                Object {
+                                                  "description": "nam sem mattis aliquet mus curabitur fermentum dapibus pulvinar, sed molestie per bibendum ut fringilla fusce",
+                                                  "id": 3,
+                                                  "title": "Pay taxes",
+                                                },
+                                                Object {
+                                                  "description": "Urna mattis tristique porttitor dictumst metus congue ac id tempor pellentesque",
+                                                  "id": 4,
+                                                  "title": "Study English",
+                                                },
+                                              ]
+                        }
+            />
+</Col>,
+          "tag": "div",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <h1
+                className="text-center display-4"
+                style={
+                                Object {
+                                                "fontSize": "2rem",
+                                                "marginBottom": "2rem",
+                                              }
+                }
+>
+                Todo tasks
+</h1>,
+              <Button
+                color="primary"
+                onClick={[Function]}
+                size="sm"
+                tag="button"
+>
+                New task
+</Button>,
+              false,
+              <hr />,
+              <div
+                className="search-container"
+>
+                <SearchBox
+                                onChange={[Function]}
+                                searchTerm=""
+                />
+</div>,
+              <Tasks
+                deleteTask={[Function]}
+                editTask={[Function]}
+                searchTerm=""
+                tasks={
+                                Array [
+                                                Object {
+                                                  "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit suscipit, erat curabitur feugiat posuere interdum ullamcorper habitasse",
+                                                  "id": 1,
+                                                  "title": "Wash the dog",
+                                                },
+                                                Object {
+                                                  "description": "duis aenean turpis lobortis molestie proin justo. Conubia blandit aliquam curae nec lacinia vivamus pretium quis",
+                                                  "id": 2,
+                                                  "title": "Go for some beers",
+                                                },
+                                                Object {
+                                                  "description": "nam sem mattis aliquet mus curabitur fermentum dapibus pulvinar, sed molestie per bibendum ut fringilla fusce",
+                                                  "id": 3,
+                                                  "title": "Pay taxes",
+                                                },
+                                                Object {
+                                                  "description": "Urna mattis tristique porttitor dictumst metus congue ac id tempor pellentesque",
+                                                  "id": 4,
+                                                  "title": "Study English",
+                                                },
+                                              ]
+                }
+/>,
+            ],
+            "md": Object {
+              "offset": 2,
+              "size": 8,
+            },
+            "sm": "12",
+            "tag": "div",
+            "widths": Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Todo tasks",
+                "className": "text-center display-4",
+                "style": Object {
+                  "fontSize": "2rem",
+                  "marginBottom": "2rem",
+                },
+              },
+              "ref": null,
+              "rendered": "Todo tasks",
+              "type": "h1",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "New task",
+                "color": "primary",
+                "onClick": [Function],
+                "size": "sm",
+                "tag": "button",
+              },
+              "ref": null,
+              "rendered": "New task",
+              "type": [Function],
+            },
+            false,
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "hr",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <SearchBox
+                  onChange={[Function]}
+                  searchTerm=""
+/>,
+                "className": "search-container",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "onChange": [Function],
+                  "searchTerm": "",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "deleteTask": [Function],
+                "editTask": [Function],
+                "searchTerm": "",
+                "tasks": Array [
+                  Object {
+                    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit suscipit, erat curabitur feugiat posuere interdum ullamcorper habitasse",
+                    "id": 1,
+                    "title": "Wash the dog",
+                  },
+                  Object {
+                    "description": "duis aenean turpis lobortis molestie proin justo. Conubia blandit aliquam curae nec lacinia vivamus pretium quis",
+                    "id": 2,
+                    "title": "Go for some beers",
+                  },
+                  Object {
+                    "description": "nam sem mattis aliquet mus curabitur fermentum dapibus pulvinar, sed molestie per bibendum ut fringilla fusce",
+                    "id": 3,
+                    "title": "Pay taxes",
+                  },
+                  Object {
+                    "description": "Urna mattis tristique porttitor dictumst metus congue ac id tempor pellentesque",
+                    "id": 4,
+                    "title": "Study English",
+                  },
+                ],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
