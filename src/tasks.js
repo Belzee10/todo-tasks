@@ -21,7 +21,7 @@ const defaultTasks = [
     id: 4,
     title: "Study English",
     description:
-      "Urna mattis tristique porttitor dictumst metus congue ac id tempor pellentesque"
+      "Urna mattis tristique porttitor dictumst metus congue ac id tempor pellentesque curabitur fermentum dapibus pulvinar, sed molestie per"
   }
 ];
 

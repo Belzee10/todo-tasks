@@ -12,13 +12,6 @@ class App extends Component {
     newTaskShow: false
   };
 
-  componentDidMount() {
-    // console.log(defaultTasks);
-    // this.setState({
-    //   tasks: defaultTasks
-    // });
-  }
-
   showNewTask = () => {
     !this.state.newTaskShow &&
       this.setState({
